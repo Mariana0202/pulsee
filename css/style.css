@@ -1,0 +1,355 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../img/bg.jpg) center center/cover no-repeat;
+}
+.promo_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 90px;
+}
+.promo_header {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 42px;
+}
+.promo_subheader {
+  margin-top: 17px;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.promo_icons {
+  margin-top: 65px;
+  width: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.promo_icon {
+  width: 108px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.promo_icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.promo_link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 18px;
+}
+.promo_link a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header_logo {
+  width: 250px;
+}
+.header_logo img {
+  width: 100%;
+}
+.header_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.header_official {
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.header_official span {
+  display: block;
+  font-size: 18px;
+}
+.header_phone {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header_phone:hover {
+  color: #d2f7a2;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  background-color: #c70101;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button_main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #811c1c;
+}
+
+.reasons {
+  min-height: 470px;
+  background-color: #f6f6f6;
+  padding: 68px 0 78px 0;
+}
+.reasons_header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.reasons_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.reasons_icon {
+  width: 240px;
+  text-align: center;
+  padding-top: 65px;
+}
+.reasons_icon img {
+  display: block;
+  margin: 0 auto;
+}
+.reasons_subheader {
+  padding-top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.reasons_text {
+  padding-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0d0d0d;
+}
+.reasons_text span {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url(../img/консультация.png) center center/cover no-repeat;
+  text-align: left;
+}
+.consultation_title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.consultation_dscr {
+  line-height: 1.2;
+  padding-top: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.feed_form {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+}
+.feed_form input {
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+.feed_form input:nth-child(3) {
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 100%;
+  height: 55px;
+  background-color: #c70101;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.submit:hover {
+  background-color: #811c1c;
+}
+
+.carousel {
+  padding: 81px 0;
+}
+.carousel_inner {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 160px;
+  background-color: #b40f0f;
+  text-align: center;
+  padding-top: 30px;
+}
+.footer_info {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer_phone {
+  padding-top: 15px;
+  font-size: 15px;
+  position: relative;
+}
+.footer_phone::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/icon.png);
+  width: 212px;
+  height: 52px;
+  top: 55px;
+  right: 370px;
+}
